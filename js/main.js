@@ -3,9 +3,9 @@ jQuery(document).ready(function(){
  var $window = $(window);
  $window.scroll(function () {
      if ($window.scrollTop() > 0)
-        $('.navbar').css('background-color', '#fff'), $('.navbar li a').css('color', '#444'), $('img#white').css('display', 'none'), $('img#black').css('display', 'block');
+        $('.navbar-brand').css('background-color', '#fff'), $('.navbar li a').css('color', '#444'), $('img#logo_white').css('display', 'none'), $('img#logo').css('display', 'block');
      else {
-        $('.navbar').css('background-color', 'transparent'), $('.navbar li a').css('color', '#fff'), $('img#white').css('display', 'block'), $('img#black').css('display', 'none');
+        $('.navbar-brand').css('background-color', 'transparent'), $('.navbar li a').css('color', '#fff'), $('img#logo').css('display', 'block'), $('img#logo_white').css('display', 'none');
      }
  });
 // Typed animation

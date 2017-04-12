@@ -33,10 +33,11 @@ a:focus {
 }
 h1 {
   font-size: 12em;
-  text-align: left;
   text-transform: uppercase;
-  font-weight: 900;
-  border-left:7px solid #fff;
+  font-weight: 100;
+  border-left:2px solid #fff;
+  border-right:2px solid #fff;
+
 }
 h2,
 h3,
@@ -87,6 +88,7 @@ aside {
 
 span.subtitle {
   font-size: 1.8em;
+  font-weight: 100;
 }
 
 .title-puce {
@@ -101,14 +103,16 @@ span.subtitle {
 }
 /* SKILLS */ 
  #skills {
-   background-color: #dedede;
-   color:#444;
+   background-image: url('../img/home.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+   color:#fff;
    padding:20px 0;
    height:100vh;
 }
 
 #skills h3 {
-  color:#444;
+  color:#fff;
   font-weight: 600;
 }
 
@@ -142,9 +146,10 @@ span.subtitle {
 }
 
 #about h2 {
-  color:#ff0000;
+  color:#F05F40;
   text-align: center;
   padding:25px 0;
+  font-weight: 100;
 }
 .section-title {
   padding:25px 0;
@@ -159,6 +164,11 @@ span.subtitle {
   margin:auto;
 }
 
+.certificate {
+  margin-top:40px;
+  margin-bottom:40px;
+}
+
 .navbar-default {
   background-color: white;
   -webkit-transition: all 0.35s;
@@ -169,6 +179,7 @@ span.subtitle {
   color: #F05F40;
   font-weight: 700;
   text-transform: uppercase;
+  padding:10px;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -365,6 +376,19 @@ header .header-content .header-content-inner p {
 .portfolio-box:focus {
   outline: none;
 }
+
+.img-responsive-lp{
+    height: 393px;
+    width:100%;
+}
+
+#bte {
+   height: 379px;
+}
+
+.call-to-action h2 {
+  font-weight: 200;
+}
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
@@ -372,6 +396,10 @@ header .header-content .header-content-inner p {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
+.img-responsive-lp{
+    height: 393px;
+    width:100%;
+}
 }
 @media (max-width: 400px) {
    #skills {
@@ -379,6 +407,15 @@ header .header-content .header-content-inner p {
    color:#fff;
    padding:20px 0;
    height: auto;
+  }
+
+  .img-responsive-lp{
+      height: 100%;
+      width:100%;
+  }
+
+  #skills h2 {
+    text-align: center;
   }
 }
 .call-to-action h2 {
@@ -524,7 +561,7 @@ body {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-color:#ff0000;
+  background-image:url('../img/home.jpg');
   background-attachment: fixed;
   padding: 50px 0;
 
@@ -676,7 +713,7 @@ body {
   background-color: #f0ad4e !important;
 }
 .timeline-badge.danger {
-  background-color: #d9534f !important;
+  background-color: #F05F40 !important;
 }
 .timeline-badge.info {
   background-color: #5bc0de !important;
@@ -696,11 +733,11 @@ body {
 span.cd-date-right {
   position: absolute;
   left:54%;
-  top:11%;
+  top:20%;
 }
 
 span.cd-date-left {
     position: absolute;
     left: 32%;
-    top: 11%;
+    top: 20%;
 }
