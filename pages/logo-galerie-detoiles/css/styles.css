@@ -172,3 +172,59 @@ footer {
     margin-top: 50px;
 }
 
+@media (max-width:400px) {
+
+    .ge-presentation-color li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 20px 8px;
+        transition: all ease 1s;
+    }
+
+    .ge-presentation-mockup img {
+        width: 100%;
+        display: block;
+    }
+
+    .ge-presentation-typo img {
+        width: 23rem;
+        display: block;
+        margin: auto;
+    }
+
+    .ge-title-puce {
+        width: 34px;
+        height: 6px;
+        display: block;
+        margin-right: 16px;
+        background: #915e37;
+        top: 116px;
+        left: 21px;
+        position: absolute;
+    }
+
+    .ge-header h1 {
+        color: #242424;
+        font-weight: 700;
+        padding-left: 44px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+    }
+
+    .ge-presentation-macbook span{
+        background-color: #915e37;
+        width: 100%;
+        height: 50px;
+        display: inline-block;
+        position: relative;
+        z-index: -1;
+
+    }
+
+    .ge-presentation-macbook img {
+        width: 100%;
+        margin: auto;
+        display: inherit;
+        box-shadow:initial;
+    }
+}
