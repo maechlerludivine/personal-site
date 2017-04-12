@@ -210,6 +210,10 @@ span.subtitle {
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
+
+.navbar-default .navbar-toggle {
+  border:none;
+}
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -396,10 +400,14 @@ header .header-content .header-content-inner p {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
-.img-responsive-lp{
-    height: 393px;
-    width:100%;
-}
+  .img-responsive-lp{
+      height: 393px;
+      width:100%;
+  }
+  #bte {
+   height: 379px;
+    }
+
 }
 @media (max-width: 400px) {
    #skills {
@@ -417,6 +425,25 @@ header .header-content .header-content-inner p {
   #skills h2 {
     text-align: center;
   }
+
+  #bte {
+    height: auto;
+  }
+
+  span.subtitle {
+    font-size: 1.5em;
+    font-weight: 100;
+  }
+
+  .timeline > li > .timeline-panel {
+    width: 100%!important;
+    
+  }
+
+  .timeline > li {
+    margin-bottom:65px!important;
+  }
+
 }
 .call-to-action h2 {
   margin: 0 auto 20px;
@@ -596,9 +623,34 @@ body {
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 4em;
+    font-size: 3em;
     border-left:none;
     text-align:center;
+    border:none;
+  }
+
+  .timeline:before {
+    display:none;
+  }
+
+  .timeline > li > .timeline-badge {
+    display: none;
+  }
+
+  span.cd-date-right {
+      position: initial!important;
+      display: block!important;
+      width: 60%!important;
+      margin:10px auto!important;
+
+  }
+
+  span.cd-date-left {
+      position: initial!important;
+      display: block!important;
+      width: 60%!important;
+      margin:10px auto!important;
+
   }
 }
 
@@ -740,4 +792,8 @@ span.cd-date-left {
     position: absolute;
     left: 32%;
     top: 20%;
+}
+
+.one {
+  margin:20px auto;
 }
