@@ -34,6 +34,7 @@ header img {
     font-weight: 700;
     padding-left: 44px;
     margin-bottom: 10px;
+    font-size: 3em;
 }
 
 .ge-header h2 {
@@ -47,7 +48,7 @@ header img {
     display: block;
     margin-right: 16px;
     background: #915e37;
-    top: 126px;
+    top: 140px;
     left: 21px;
     position: absolute;
 }
@@ -73,11 +74,11 @@ header img {
 .ge-presentation-macbook span{
     background-color: #915e37;
     width: 100%;
-    height: 100px;
+    height: 192px;
     display: inline-block;
     position: relative;
     z-index: -1;
-
+    bottom: 122px;
 }
 
 .ge-presentation-color li {
@@ -141,7 +142,7 @@ header img {
 
 .ge-presentation-mockup {
     width: auto;
-    margin:100px auto 20px auto;
+    margin:195px auto 20px auto;
 }
 
 .ge-presentation-mockup img {
